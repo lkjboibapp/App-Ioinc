@@ -23,6 +23,14 @@ module.exports = [
     "clobbers": [
       "window.Keyboard"
     ]
+  },
+  {
+    "id": "cordova-plugin-app-preferences.apppreferences",
+    "file": "plugins/cordova-plugin-app-preferences/www/apppreferences.js",
+    "pluginId": "cordova-plugin-app-preferences",
+    "clobbers": [
+      "plugins.appPreferences"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -32,7 +40,8 @@ module.exports.metadata =
   "cordova-plugin-device": "2.0.1",
   "cordova-plugin-splashscreen": "5.0.2",
   "cordova-plugin-ionic-webview": "1.1.16",
-  "cordova-plugin-ionic-keyboard": "2.0.5"
+  "cordova-plugin-ionic-keyboard": "2.0.5",
+  "cordova-plugin-app-preferences": "0.99.3"
 };
 // BOTTOM OF METADATA
 });
